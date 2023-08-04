@@ -1,0 +1,23 @@
+.flash-error {
+    color: red;
+}
+
+form div {
+    margin-bottom: 2rem;
+}
+
+.input-error {
+    font-size: 0.8rem;
+    color: red;
+}
+
+label {
+    text-transform: capitalize;
+    margin-right: 0.5rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+label::after {
+    content: ":";
+}
